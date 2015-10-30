@@ -1,0 +1,37 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: black;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: lightcyan;
+}
+
+tbody tr:nth-child(odd):hover {
+	background-color: cornflowerblue;
+}
+
+tbody tr:nth-child(even):hover {
+	background-color: cornflowerblue;
+}
+
+table {
+	overflow: hidden;
+	max-width: 1500px;
+	min-width: 600px;
+	width: 80%;
+	margin: 0 auto;
+}
+col:nth-child(odd){
+	background-color: greenyellow;
+}
+
+th,
+td {
+	padding: 10px;
+}
+
+th {
+	font-size: 100%;
+	text-align: center;
+}
